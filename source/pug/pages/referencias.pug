@@ -1,0 +1,27 @@
+include ../mixins/functions
+
+.container
+
+    .header-ecored
+        h1 Referencias bibliográficas
+
+    .jumbotron.bg-white.referencias
+        +referenciaItem("Abril R, I. (2018). Análisis de la Cadena Productiva del Sector Industrial de Cuero y sus efectos en la producción de Calzado en la Provincia de Tungurahua. ", "http://192.188.52.94/handle/3317/10787")
+
+        +referenciaItem("Pérez, J. & Gardey, A. (2014). Definición de confección. ", "https://definicion.de/confeccion/")
+
+        .row.justify-content-between.align-items-center
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-picture-o.fa-2x.text-center
+                        p.text-center.flex-grow-1 Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a>
+
+            .col-12.col-md-5.my-4
+                .jumbotron.p-4
+                    .d-flex.justify-content-center.align-items-center
+                        p.text-center.pl-4
+                            i.fa.fa-creative-commons.fa-2x.text-center
+                        p.text-center.flex-grow-1 Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a>            
